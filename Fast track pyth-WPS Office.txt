@@ -1,0 +1,15 @@
+﻿Fast track python
+Assignment_1
+1.Difference between numpy shape and numpy size
+A: *Definition of numpy : NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely. NumPy stands for Numerical Python.
+* Numpy shape : In NumPy we will use an attribute called shape which returns a tuple, the elements of the tuple give the lengths of the corresponding array dimensions.
+*Numpy size : size() Function in Python. The size of an array is the total number of elements in the array. The numpy. size() function in the NumPy package returns the size of a given array
+2.In Numpy, describe the idea of broadcasting
+A : The term broadcasting refers to the ability of NumPy to treat arrays of different shapes during arithmetic operations. Arithmetic operations on arrays are usually done on corresponding elements. If two arrays are of exactly the same shape, then these operations are smoothly performed
+3.what makes python better than other libraries for numerical computation?
+A:  The library consists of modules for optimisation, image processing, FFT, special functions and signal processing. The SciPy package includes algorithms and functions which are the crux of Python scientific computing capabilities  NumPy. NumPy (Numerical Python) is the fundamental package for numerical computation in Python; it contains a powerful N-dimensional array object.
+4 .How does numpy deal with files ?
+A : NumPy introduces a simple file format for ndarray objects. This . npy file stores data, shape, dtype and other information required to reconstruct the ndarray in a disk file such that the array is correctly retrieved even if the file is on another machine with different architecture.
+5.Mention the importance of Numpy.empty().
+The empty() function is used to create a new array of given shape and type, without initializing entries. Shape of the empty array, e.g., (2, 3) or 2. Desired output data-type for the array, e.g, numpy. int8
+
